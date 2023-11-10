@@ -1,0 +1,204 @@
+/*Index*/
+
+.indexContainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/individualProject/assets/images/backgroundImage.JPG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    filter:grayscale(0.5);
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.indexH1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.indexH3 {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.link {
+    color: white;
+}
+
+/*Index responsive*/
+/*when the size of media is smaller, the bg size remains 100%
+
+/*About*/
+/*Navbar*/
+.nav-item {
+    margin-left: 20px;
+}
+
+/*About Intro*/
+.introSection {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.myPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 30px;
+    filter: grayscale(1)
+}
+
+.introContainer {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tagContainer {
+    margin-top: 70px;
+    font-family: 'Agbalumo';
+    text-align: center;
+}
+
+.aboutH1 {
+    font-size: 100px;
+}
+
+.tagContainer2 {
+    margin-top: 25px;
+    font-family: 'Agbalumo';
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/*About Biography*/
+
+.biographySection {
+    background-color: rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.biographyContainer {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+}
+
+.biographyH4 {
+    color: white;
+    text-decoration: underline;
+}
+
+.biographyPContainer {
+    margin-top: 40px;
+}
+
+.biographyP {
+    margin-top: -15px;
+    color: grey;
+}
+
+/*About Why Web Development*/
+
+.whyWebDevelopmentSection {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.whyWebDevelopmentContainer {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+}
+
+.whyWebDevelopmentH4 {
+    text-decoration: underline;
+}
+
+.whyWebDevelopmentPContainer {
+    margin-top: 40px;
+}
+
+.whyWebDevelopmentP {
+    color: grey;
+}
+
+/*About Goal*/
+
+.goalSection {
+    background-color: rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.goalContainer {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+}
+
+.goalH4 {
+    color: white;
+    text-decoration: underline;
+}
+
+.goalPContainer {
+    margin-top: 40px;
+}
+
+.goalP {
+    margin-top: -15px;
+    color: grey;
+}
+
+/*Footer*/
+.rowContactIconSection {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+    width: 50px;
+    margin-left: 48%;
+}
+
+.contactIcons {
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Contact*/
+
+.contactContainer {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+.contactIconContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.verticalLine {
+    border-right: 3px solid grey;
+    height: 130px;
+}

@@ -1,0 +1,7 @@
+Presentation
+
+Font-style: 無腳字，給人圓潤，不會太多菱角，尖銳的印象
+
+#About
+tag: margin較大，eye-catching，emphasize
+biography: <p> -ve margin，閱讀上比較舒適
