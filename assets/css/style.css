@@ -176,7 +176,7 @@ hr {
     margin-left: 48%;
 }
 
-.contactIcons {
+.rowContactIcons {
     margin-right: 10px;
 }
 
@@ -201,4 +201,9 @@ a {
 .verticalLine {
     border-right: 3px solid grey;
     height: 130px;
+}
+
+.contactIcons {
+    margin-top: 12px;
+    margin-bottom: 30px;
 }

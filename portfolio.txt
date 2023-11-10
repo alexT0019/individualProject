@@ -6,5 +6,4 @@ Random Quote
 Contact
 error handling(invalid input)
 what happens after submit
-icon href
 icon animation
