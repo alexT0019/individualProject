@@ -1,7 +1,37 @@
 Presentation
 
 Font-style: 無腳字，給人圓潤，不會太多菱角，尖銳的印象
+但比較四四方方，而不完全用圓字體，表現比較古板，較靜態的形象
+Color: 黑白灰，符合比較沉悶，悲觀personality
 
 #About
-tag: margin較大，eye-catching，emphasize
+tag: margin, font-size較大，eye-catching，emphasize，use heartbeat & fade in animation from animate CSS
 biography: <p> -ve margin，閱讀上比較舒適
+標題用text-decoration: underline，比較清晰
+background color: black and white間住，較不沉悶，清晰分每個section
+contact icons: allow immediate contact，可能睇完about就想直接contact，唔洗搵contact page
+
+#Portfolio - Random Quote
+Prompt: click to generate -> teach users how to use this website
+Container with background image
+~random name picker
+1. Create variables for elements from other pages(using querySelector)
+2. Create array to store random quotes
+-> Heart-warming quotes on web
+3. Add event listener (click, Math.random)
+-> Everytime you click on the container, it displays random value from the array
+Reason to create this site: everyone may have a bad time in their lives, may feel depressed or even suffer from mental illness. I hope this can warm their heart and maybe give them some power to continue.
+
+#Portfolio - Champion
+~Weather app, when click on specific area, the image and text changes
+specific area using image maps, use coordinates to assign area
+used javascript add event listener, when click on the image, image src and text innerHTML change
+added prompt to guide users how to use(click on the icons, select again)
+select again button to change the image src and innerHTML back
+responsive: tried installing plugins but all failed
+then write functions on js
+multiplying the coordinations to width ratio(resized width/original width of the img)
+
+#Contact
+icon: fade-in animation to draw attention, use font-awesome icon looks clean.
+form: connect to Ratufa.io, automatically deal with form submission, submission successful alert, validation check. No need to write js on your own.
