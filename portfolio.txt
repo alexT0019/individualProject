@@ -1,9 +1,0 @@
-Portfolio
-
-Random Quote
-
-
-Contact
-error handling(invalid input)
-what happens after submit
-icon animation
