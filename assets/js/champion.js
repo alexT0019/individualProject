@@ -9,41 +9,41 @@ const h4 = document.querySelector("h4");
 //On-click functions for different roles
 //Top
 championImgArea[0].addEventListener("click", ()=>{
-    championImg.src = "/individualProject/assets/images/topImg.jpg";
+    championImg.src = "./assets/images/topImg.jpg";
     h1.innerHTML = "Shen";
     h4.innerHTML = `Click "select again" button to select another champion`;
 })
 //Jungle
 championImgArea[1].addEventListener("click", ()=>{
-    championImg.src = "/individualProject/assets/images/jungleImg.jpg";
+    championImg.src = "./assets/images/jungleImg.jpg";
     h1.innerHTML = "Lillia";
     h4.innerHTML = `Click "select again" button to select another champion`;
 })
 
 //Mid
 championImgArea[2].addEventListener("click", ()=>{
-    championImg.src = "/individualProject/assets/images/midImg.jpg";
+    championImg.src = "./assets/images/midImg.jpg";
     h1.innerHTML = "Akshan"
     h4.innerHTML = `Click "select again" button to select another champion`;
 })
 
 //Bot
 championImgArea[3].addEventListener("click", ()=>{
-    championImg.src = "/individualProject/assets/images/botImg.jpg";
+    championImg.src = "./assets/images/botImg.jpg";
     h1.innerHTML = "Aphelios"
     h4.innerHTML = `Click "select again" button to select another champion`;
 })
 
 //Sup
 championImgArea[4].addEventListener("click", ()=>{
-    championImg.src = "/individualProject/assets/images/supImg.jpg";
+    championImg.src = "./assets/images/supImg.jpg";
     h1.innerHTML = "Lulu"
     h4.innerHTML = `Click "select again" button to select another champion`;
 })
 
 //Select Again Button
 selectAgainBtn.addEventListener(("click"), () => {
-    championImg.src = "/individualProject/assets/images/championSelect.png";
+    championImg.src = "./assets/images/championSelect.png";
     h1.innerHTML = "My favourite champion";
     h4.innerHTML = "Click on an icon to select";
 })

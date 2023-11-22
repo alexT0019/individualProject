@@ -207,11 +207,13 @@ a {
 
 /*Footer*/
 .footer {
+    margin-top: 20px;
     background-color: rgb(31, 31, 31);
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 50px;
     color: grey;
+    display: flex;
 }
 
 .footerTitle {
@@ -220,9 +222,64 @@ a {
 
 .footerItem {
     color: grey;
+    font-size: 13px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    text-align: right;
+}
+
+/*About responsive*/
+@media screen and (max-width: 1100px) {
+    .biographyContainer, .whyWebDevelopmentContainer, .goalContainer {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    /*footer*/
+    .footer {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myPhoto {
+        width: 70%;
+    }
+
+    .introContainer h5 {
+        font-size: 18px;
+    }
+
+    .aboutH1 {
+        font-size: 70px;
+    }
+
+    .biographyP, .whyWebDevelopmentP, .goalP {
+        font-size: 15px;
+    }
+
+    hr {
+        margin-left: 42%;
+    }
+
+    /*footer*/
+    .copyright {
+        padding-right: 20px;
+        font-size: 15px;
+    }
 }
 
 /*Portfolio*/
+.portfolioSection {
+    height: 70vh;
+}
 
 .portfolioPromptContainer {
     margin-top: 30px;
@@ -231,9 +288,67 @@ a {
     text-align: center;
 }
 
-.porfolioContainer {
-    margin-left: 20%;
-    margin-right: 20%;
+.portfolioContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.portfolioImgContainer {
+    position: relative;
+}
+
+.portfolioImg {
+    width: 100%;
+    height: auto;
+}
+
+/*Portfolio overlay*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color: rgb(168, 168, 168);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.portfolioImgContainer:hover .overlay {
+    opacity: 1;
+}
+
+.overlayTextTitle {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlayText {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*Portfolio responsive*/
+@media screen and (max-width: 1000px) {
+    .portfolioSection {
+        height: auto;
+    }
 }
 
 /*Portfolio Random Quote*/
@@ -323,6 +438,8 @@ a {
     margin-bottom: 5%;
     padding: 20px;
     font-family: 'Orbitron';
+    max-width: 300px;
+    min-width: 300px !important;
 }
 
 .calculatorScreen {
@@ -337,11 +454,24 @@ a {
     padding-top: 20px;
 }
 
-.calculatorBtn {
+.calculatorBtn, .calculatorOperatorBtn, .calculatorACBtn {
     height: 60px;
     width: 60px;
 }
 
+.calculatorEqualBtn {
+    height: 60px;
+    width: 254px;
+}
+
+/*Calculator responsive*/
+
+@media screen and (max-width: 600px) {
+    .calculatorContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
 
 /*Contact*/
 
@@ -349,6 +479,7 @@ a {
     margin-top: 5%;
     margin-left: 25%;
     margin-right: 20%;
+    height: 70vh;
 }
 
 .contactIconContainer {
@@ -364,4 +495,19 @@ a {
 .contactIcons {
     margin-top: 12px;
     margin-bottom: 30px;
+}
+
+/*Contact responsive*/
+@media screen and (max-width: 1100px) {
+    .contactContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactContainer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
