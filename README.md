@@ -14,12 +14,12 @@ Introducing my hobby, biography, why I started learning web development and my g
 With contact icons below which link to my Instagram, E-mail and Whatsapp.
 # Portfolio
 Showing some of my work of web development using html, css and javascript.
-- Random quote
+- Random quote<br>
 Click on anywhere to generate random heart-warming quotes.
-- Champion
-Click on icons on the image to generate a picture and the name of my favourite champion in my favourite game League of Legends.
+- Champion<br>
+Click on icons on the image to generate a picture and the name of my favourite champion in my favourite game League of Legends.<br>
 Click 'SELECT AGAIN' to pick another champion of different role.
-- Calculator
+- Calculator<br>
 A calculator doing simple math.
 # Contact
 A form to submit anything you want to tell me.
