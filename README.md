@@ -1,7 +1,7 @@
 # Individual Project - About me
 Hello, I am Alex Tsui and this is my about-me website.
 # How it works
-Please clone this repository, right-click index.html and select 'Open with Live Server'.
+Please visit my website at https://alext0019.github.io/individualProject/
 # Sections
 - Index
 - About
